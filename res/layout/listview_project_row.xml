@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+
+
+        <TextView
+            android:id="@+id/tvProjectName"
+            style="@style/textTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project name" />
+
+        <TextView
+            android:id="@+id/tvProjectOpportunity"
+            style="@style/textTitle3"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:text="opport" />
+
+
+
+        <TextView
+            android:id="@+id/tvProjectTeam"
+            style="@style/textTitle3"
+            android:text="team" />
+
+        <TextView
+            android:id="@+id/tvProjectDate"
+            style="@style/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date" />
+    
+
+	    <TextView
+	        android:id="@+id/tvProjectDescription"
+	        style="@style/textDesc"
+	        android:text="desc" />
+	
+	    <TextView
+	        android:id="@+id/tvProjectTechnologies"
+	        android:paddingTop="7dp"
+	        style="@style/textLegend"
+	        android:text="technos" />
+
+</LinearLayout>

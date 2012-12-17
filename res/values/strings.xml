@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="goToCV">Entrer dans le CV</string>
+    <string name="title_activity_formation">Formations</string>
+    <string name="title_activity_experience">Expérience</string>
+    <string name="title_activity_expertise">Compétences</string>
+    <string name="title_activity_tab_layout"></string>
+    <string name="title_activity_info">Nelson Dufossé</string>
+    <string name="title_activity_sport">Sports</string>
+
+
+</resources>

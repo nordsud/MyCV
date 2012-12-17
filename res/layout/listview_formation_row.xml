@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgIconFormation"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"            
+                android:layout_gravity="left" />
+
+            <TextView
+                android:id="@+id/tvDateFormation" 
+                style="@style/textDate"/>
+
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTitleFormation"
+                style="@style/textTitle1" />
+            
+            <TextView
+                android:id="@+id/tvDescFormation"
+                android:text="Desc" 
+                style="@style/textDesc"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+     
+</LinearLayout>
