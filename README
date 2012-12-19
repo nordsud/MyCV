@@ -1,26 +1,5 @@
 #
-# Utilisation du super()
+# Description
 #
-Le mot clé super appelle le constructeur de la classe parent. Il a donc besoin d'être appellé en premier pour instancier les attributs de la classe parent avant ceux de la classe fille.
-Le constructeur vide super() est appelé automatiquement et implicitement. En revanche, il faut préciser quel constructeur tu as besoin dans le cas o^tu veux utiliser un autre que celui par défaut.
-Comme par exemple super("ma","maman","est","..."); pour appelé un constructeur spécifique.
 
-
-#
-# Adapteur
-#
-Je ne connais pas les adapteurs. En fait je sais pas ce que c'est mais à chaque fois dans le constructeur, tu utilises un tableau ( ex. Formation[])
-De mon point de vue, ton CV n'est pas figé, tu vas agrandir ta liste de Formation, de sport etc. Donc faire un tableau [] avec un nombre de "cases" fixes n'est pas forcément un bonne idée.
-Comment tu fais quand tu acquiers une onzième expérience pour un tableau initialisé à 10. ? à toi de voir avec les listes plutot..
-PS : Vive les copy/paste hein ?! ^^
-
-
-#
-# Conseil
-#
-Indente et arrange un peu mieux ton code. Enlève les espaces inutiles, les retours à la ligne en trop etc..
-Plus lisible et compréhensible..
-J'en ai fait pas mal pour comprendre, fais le reste si tu peux/veux.
-
-
- 
+Application Android de présentation de CV 
